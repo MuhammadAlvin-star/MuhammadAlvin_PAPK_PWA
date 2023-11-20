@@ -1,0 +1,79 @@
+/* Tata letak untuk splash screen */
+.splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  /* Warna latar belakang splash screen */
+}
+
+/* Tata letak untuk navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  /* Warna latar belakang navbar */
+  color: #fff;
+  /* Warna teks pada navbar */
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  max-width: 100px;
+  /* Lebar maksimum logo */
+  height: auto;
+  /* Biarkan tinggi logo menyesuaikan proporsi */
+}
+
+/* Tata letak untuk logo di navbar */
+.logo img {
+  max-width: 100px;
+  text-align: center;
+  align-items: center;
+  /* Lebar maksimum logo */
+  height: auto;
+  /* Biarkan tinggi logo menyesuaikan proporsi */
+}
+
+/* Tata letak untuk konten utama */
+.content {
+  padding: 20px;
+}
+
+/* Tata letak untuk tabel harga */
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Tata letak untuk form */
+.form {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tata letak untuk tombol */
+.btn-tambah {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Alvin Laundry App",
+  "short_name": "AlvinLaundry",
+  "description": "Aplikasi AlvinLaundry",
+  "icons": [
+    {
+      "src": "assets/image/Alvinsplash.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/Alvins.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/favicon.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#c1efff",
+  "background_color": "#88ddff",
+  "prefer_related_applications": false
+}
